@@ -1,12 +1,19 @@
 div.navbar + div.container {
     margin-top: 70px;
 }
-.form-control-feedback {
-    position: absolute;
-    top: 25px;
-    right: 5px;
+.leaflet-container{
+    position: relative;
+    width: 100%;
+}
+.leaflet-container:before{
+    content: "";
     display: block;
-    width: 34px;
-    height: 34px;
-    line-height: 34px;
+    padding-top: 56.25%;
+}
+.leaflet-content{
+    position:  absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
 }
