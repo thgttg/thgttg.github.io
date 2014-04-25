@@ -9,6 +9,6 @@ function navController($scope, $route) {
 
 function homeController($scope, $route, geolocation) {
     geolocation.getLocation().then(function(data){
-        $scope.coords = { lat:data.coords.latitude, long:data.coords.longitude };
+        $scope.geolocation = data;
     });
 }
