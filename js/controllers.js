@@ -7,8 +7,10 @@ function navController($scope, $route) {
     };
 }
 
-function homeController($scope, $route, geolocation) {
-    geolocation.getLocation().then(function(data){
-        $scope.geolocation = data;
+function homeController($scope) {
+    angular.extend($scope, {
+        center: {
+            autoDiscover: true
+        }
     });
 }
