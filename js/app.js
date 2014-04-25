@@ -1,5 +1,5 @@
 var tt = window.tt || {};
-tt.app = angular.module('thgttg-app', ['ngResource', 'ngRoute', 'ngCookies', 'geolocation']);
+tt.app = angular.module('thgttg-app', ['ngRoute', 'geolocation']);
 //tt.apiUrl = 'https://api.github.com'
 //tt.apiToken = 'xxx'
 //tt.appRepo = 'thgttg/data'
