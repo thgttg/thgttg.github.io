@@ -6,11 +6,19 @@ the source code for this page lives at [github.com/thgttg/thgttg-react](https://
 
 the app works by reading a github gist containing json files filled with transaction data.
 
-if you've arrived at this page without specifying a gist in the url or with a cookie from a previous visit, the page defaults to displaying the demo gist at [gist.github.com/8124c7dbcb6bdef3b81124ca974f635c](https://gist.github.com/8124c7dbcb6bdef3b81124ca974f635c).
+if you've arrived at this page without specifying a gist in the url or with a cookie from a previous visit, the page defaults to displaying the demo gist at [gist.github.com/8272a8540d65584f16a2d3f6b9c34e4c](https://gist.github.com/8272a8540d65584f16a2d3f6b9c34e4c).
 
 #### viewing other portfolios
 
-you can create your own portfolio page by exporting data from your crypto wallets or exchange accounts and creating a secret gist with one json file for each wallet or exchange that you hold crypto on. then just visit https://thgttg.com/#your-gist-id-goes-here. (for example: https://thgttg.com/#8124c7dbcb6bdef3b81124ca974f635c).
+you can create your own portfolio page by exporting data from your crypto wallets or exchange accounts and creating a secret gist with one json file for each wallet or exchange that you hold crypto on. then just visit https://thgttg.com/#your-gist-id-goes-here. (for example: https://thgttg.com/#8272a8540d65584f16a2d3f6b9c34e4c).
+
+
+a simple example of a complete portfolio gist looks like this:
+``` json
+[
+  
+]
+```
 
 currently you have to create the gist json files matching the schema shown in the demo gist. when i get around to implementing it, i'll make it possible to just use the csv format exposed by most exchange export functions.
 
