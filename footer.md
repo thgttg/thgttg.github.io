@@ -6,7 +6,7 @@ the source code for this page lives at [github.com/thgttg/thgttg-react](https://
 
 the app works by reading a github gist containing json files filled with transaction data.
 
-if you've arrived at this page without specifying a gist in the url or with a cookie from a previous visit, the page defaults to displaying the demo gist at [gist.github.com/8124c7d...](https://gist.github.com/8124c7dbcb6bdef3b81124ca974f635c).
+if you've arrived at this page without specifying a gist in the url or with a cookie from a previous visit, the page defaults to displaying the demo gist at [gist.github.com/8124c7dbcb6bdef3b81124ca974f635c](https://gist.github.com/8124c7dbcb6bdef3b81124ca974f635c).
 
 #### viewing other portfolios
 
