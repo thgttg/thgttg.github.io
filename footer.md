@@ -10,7 +10,7 @@ if you've arrived at this page without specifying a gist in the url or with a co
 
 #### viewing other portfolios
 
-you can create your own portfolio page by exporting data from your crypto wallets or exchange accounts and creating a secret gist with one json file for each wallet or exchange that you hold crypto on. then just visit https://thgttg.com/#your-gist-id-goes-here and refresh the page. (for example: https://thgttg.com/#8272a8540d65584f16a2d3f6b9c34e4c).
+you can create your own portfolio page by exporting data from your crypto wallets or exchange accounts and creating a secret gist with one json file for each wallet or exchange that you hold crypto on. then just visit https://thgttg.com/#your-gist-id-goes-here (for example: [thgttg.com/#8272a8540d65584f16a2d3f6b9c34e4c](https://thgttg.com/#8272a8540d65584f16a2d3f6b9c34e4c)) and refresh the page.
 
 
 a simple example of a wallet/exchange/vault file looks like this:
