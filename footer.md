@@ -13,14 +13,27 @@ if you've arrived at this page without specifying a gist in the url or with a co
 you can create your own portfolio page by exporting data from your crypto wallets or exchange accounts and creating a secret gist with one json file for each wallet or exchange that you hold crypto on. then just visit https://thgttg.com/#your-gist-id-goes-here. (for example: https://thgttg.com/#8272a8540d65584f16a2d3f6b9c34e4c).
 
 
-a simple example of a complete portfolio gist looks like this:
+a simple example of a wallet/exchange/vault file looks like this:
 ``` json
 [
-  
+  {
+    "date": "2021-04-01T02:00:00Z",
+    "note": "staked some polkadot in my local full node",
+    "asset": "dot",
+    "amount": 1.55656795
+  },
+  {
+    "date": "2021-04-01T02:00:00Z",
+    "note": "reward from my staked kusama",
+    "asset": "ksm",
+    "amount": 0.16374403
+  }
 ]
 ```
 
-currently you have to create the gist json files matching the schema shown in the demo gist. when i get around to implementing it, i'll make it possible to just use the csv format exposed by most exchange export functions.
+withdrawals and fees use negative values in the `amount` property. deposits and buys use positive values. many exchange exports lump fees into the same row or record as the transaction. often they treat a trade as a single record too. however this page requires a separate transaction record for each fee and for each side of a trade (negative for the asset sold or disposed of, positive for the asset bought or received).
+
+currently you have to create the gist json files matching the schema shown above. when i get around to implementing it, i'll make it possible to just use the csv format exposed by most exchange export functions.
 
 this page will store two cookies in your browser.
 
